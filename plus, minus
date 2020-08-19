@@ -1,0 +1,12 @@
+#include <stdio.h> 
+int main()
+{
+	printf("%d\n", 10);
+	printf("%lf\n", 2.4);
+	printf("%.1lf\n", 2.45);
+	printf("%10lf\n", 2.4);
+	printf("%d와 %d의 합은 %d입니다.\n", 18, 29, 18 + 29);
+	printf("%.1lf-%.1lf = %.1lf", 3.4, 1.2, 3.4 - 1.2);
+
+	return 0;
+}
