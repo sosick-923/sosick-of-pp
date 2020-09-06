@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main()
+{
+	int a = 0, b = 0;
+
+	if (a > 0)
+	{
+		b = 1;
+	}
+	else if (a == 0)
+	{
+		b = 2;
+	}
+	else if (a == -1)
+	{
+		b = 3;
+	}
+	else
+	{
+		b = 4;
+	}
+
+	printf("b : %d\n", b);  // if문으로 결정된 b의 값 출력
+
+	return 0;
+}
